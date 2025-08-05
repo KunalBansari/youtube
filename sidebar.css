@@ -1,0 +1,112 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  align-items: center;
+  
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+
+  padding-top: 5px;
+  /* background-color: pink; */
+}
+
+.home-button:hover, .explore-button:hover, .subscription-button:hover, .originals-button:hover, .music-button:hover, .library-button:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.home-button, .explore-button, .subscription-button, .originals-button, .music-button, .library-button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.home, .explore, .subscriptions, .originals, .music, .library{
+  padding-top: 5px;
+  font-size: 10px;
+  font-family: roboto, Arial;
+}
+
+.home-button{
+  width: 70px;
+  height: 70px;
+  
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home-icon{
+  width: 24px;
+  padding-top: 15px;
+}
+
+.explore-button{
+  width: 70px;
+  height: 70px;
+  
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.explore-icon{
+   width: 24px;
+  padding-top: 15px;
+}
+
+.subscription-button{
+  width: 70px;
+  height: 70px;
+  
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subscription-icon{
+  width: 24px;
+  padding-top: 15px;
+}
+
+.originals-button{
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.originals-icon{
+  width: 24px;
+  padding-top: 15px;
+}
+
+.music-button{
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.music-icon{
+  width: 24px;
+  padding-top: 15px;
+}
+
+.library-button{
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.library-icon{
+  width: 24px;
+  padding-top: 15px;
+}
